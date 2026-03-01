@@ -1,19 +1,19 @@
 class Valt < Formula
   desc "Keyboard-driven terminal password manager — encrypted, offline, no cloud"
   homepage "https://github.com/jbgriesner/valt"
-  version "0.1.6"
+  version "0.1.7"
   license "GPL-3.0-or-later"
 
   on_macos do
     on_arm do
-      url "https://github.com/jbgriesner/valt/releases/download/v0.1.6/valt-v0.1.6-aarch64-apple-darwin.tar.gz"
-      sha256 "42d0b3dbf1b5ec6a467b2587aaeaf7646ee45d042e8592fc8016afdbfdef0a9d"
+      url "https://github.com/jbgriesner/valt/releases/download/v0.1.7/valt-v0.1.7-aarch64-apple-darwin.tar.gz"
+      sha256 "23e5b8675e64f6fceb700f75680cac07f87c40a5b9fc1a02d1933fa98ea784d0"
     end
   end
 
   on_linux do
-    url "https://github.com/jbgriesner/valt/releases/download/v0.1.6/valt-v0.1.6-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "58aa26d3ca9ddcb5462e1cb53caf4267c19927ef62996588869445ed7d20af24"
+    url "https://github.com/jbgriesner/valt/releases/download/v0.1.7/valt-v0.1.7-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "18a1da6a876e5e9eb41394da42e0e1a02003e4618866b263ca32bf6deb389adf"
   end
 
   def install
